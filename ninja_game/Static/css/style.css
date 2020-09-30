@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wraper {
+    width: 970px;
+    min-height: 500px;
+    display: block;
+    margin: auto;
+    border: solid black 2px;
+    background-image: radial-gradient(#7BDFF7,#031FA4);
+    
+}
+
+.title {
+    font-weight: bolder;
+    color: gold;
+    text-align: center;
+    margin-top: 20px;
+}   
+
+.gold {
+    font-weight: bold;
+    color: gold;
+    margin-left:20px;
+}
+
+.slot-app{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.slot-box {
+    width: 200px;
+    min-height: 200px;
+    border:solid black 2px;
+    background-image: radial-gradient(#2E3945,#000000);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.slot-box h3, .slot-box p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-gold {
+    width: 100px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: gold;
+    margin-top: 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+
+.activities {
+    font-weight: bold;
+    color: gold;
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+.activity-box{
+    width: 925px;
+    min-height: 150px;
+    border:solid black 2px;
+
+}
+
+.activities ul{
+    background-color: white;
+    list-style-type: none;
+    width: 925px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: auto;
+    overflow-anchor: none;
+}
